@@ -41,7 +41,7 @@
             @Html.DisplayFor(modelItem => item.EmpSalary)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.EmployeeId }) |
+            @Html.ActionLink("Edit", "Edit", new { EmployeeId=item.EmployeeId }) |
             @Html.ActionLink("Details", "Details", new { id=item.EmployeeId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeId })
         </td>
